@@ -18,7 +18,7 @@ git-conf:
 git-init:
 	git init
 	git branch -M main
-	git remote add origin https://github.com/shio408/isucon13-practice.git
+	git remote add origin https://github.com/shio408/isucon14.git
 
 build:
 	cd ~/webapp/go && go build -o isupipe .
